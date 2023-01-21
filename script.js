@@ -1,5 +1,4 @@
-const bob = document.querySelectorAll('.circle')
-function moveright() {
-   console.log('hi')
-}
-bob.document.addEventListener('click',moveright);
+var audio = document.createElement('audio');
+audio.setAttribute('src','sound.mp3')
+audio.loop=true;
+audio.play();
